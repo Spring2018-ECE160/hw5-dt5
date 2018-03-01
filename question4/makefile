@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-I. -Wall -Werror
 
-question4: format main.c
+question4: main.c
 	$(CC) $(CFLAGS) main.c -o question4
 
 clean:
